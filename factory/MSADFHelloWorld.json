@@ -1,0 +1,9 @@
+{
+	"name": "MSADFHelloWorld",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19e4ef22-81da-4480-82f2-aaf86b965f2a",
+		"tenantId": "27067075-77a8-4e8d-aa0f-86510a5480cb"
+	}
+}

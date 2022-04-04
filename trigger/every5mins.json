@@ -1,0 +1,25 @@
+{
+	"name": "every5mins",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2022-04-04T12:00:00",
+				"endTime": "2022-04-05T12:00:00",
+				"timeZone": "China Standard Time"
+			}
+		}
+	}
+}
